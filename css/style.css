@@ -104,11 +104,31 @@ body {
     align-items: center;
     padding: 12px;
 }
-
 .projects-item {
-    
+
 }
 
+.contact-container {
+    background: #232443;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contact-content {
+    color: #2c0606;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.contact-item {
+    
+}
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -332,6 +352,11 @@ footer {
         align-items: flex-start;
     }
 
+    .contact-content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
     .main-nav {
         display: block;
     }

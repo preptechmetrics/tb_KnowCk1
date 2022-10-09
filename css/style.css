@@ -177,12 +177,16 @@ a:hover, a:active {
     color: #F1F1F1;
     border: 2px solid #333333;
 }
-.hero-content .btn:hover, .hero-content .btn:active {
+.hero-content .btn:active {
     background: #333333;
     color: #F1F1F1;
     border: 2px solid #666666;
 }
-
+.hero-content .btn:hover {
+    background: #74b44a;
+    color: #F1F1F1;
+    border: 2px solid #74b44a;
+}
 .btn, .btn:visited  {
     width: 100%;
     max-width: 180px;
